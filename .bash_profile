@@ -5,3 +5,5 @@
 # gets all bash settings from .bashrc
 source .bashrc 
 
+
+
