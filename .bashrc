@@ -21,6 +21,7 @@ export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 
 # setup FZF
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+eval "$(fzf --bash)"
 
 
 # set editor to vim
