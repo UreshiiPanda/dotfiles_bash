@@ -54,6 +54,9 @@ export PATH=$PATH:~/.spicetify/
 # add gcloud to path
 source "$(brew --prefix)/share/google-cloud-sdk/path.bash.inc"
 
+# add Kitty to the path (this was only needed for Kitty window shortcuts on non-~ dirs
+export PATH="/Applications/kitty.app/Contents/MacOS/kitty"
+
 
 # add user bin to path
 # for running user scripts globally
